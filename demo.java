@@ -3,12 +3,14 @@ public class demo {
         int N = 10;  
         int sum = 0;
 
-        for (int i = 1; i <= N; i++) {
-            sum += i; 
-        }
+        int x = 5;
 
-        System.out.println("Sum of first " + N + " natural numbers is: " + sum);
-    }
+            int y = 10;
+
+            int z = (x++ > 5 && y-- < 10) ? x-- : y;
+
+            
+                }
 }
 
 
