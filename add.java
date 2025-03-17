@@ -7,6 +7,8 @@ public class add
         int result= x+y;
         System.out.println(result);
 
+        System.out.println(result);
+
     }
 }    
 
